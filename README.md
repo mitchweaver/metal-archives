@@ -2,6 +2,11 @@
 
 Helpful scripts to get information from http://metal-archives.com
 
+## installation
+
+1. install python3 and python3-pip from your package manager (UNIX), or http://python.org/getit/windows (Windows)
+2. install the required libs: `pip3 install urllib bs4 requests lyricfetcher`
+
 ### releases
 ![releases.png](res/releases.png)
 
