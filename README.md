@@ -4,8 +4,11 @@ Helpful scripts to get information from http://metal-archives.com
 
 ## installation
 
-1. install python3 and python3-pip from your package manager (UNIX), or http://python.org/getit/windows (Windows)
+1. install `python3` and `python3-pip` from your package manager (UNIX), or http://python.org/getit/windows (Windows)
 2. install the required libs: `pip3 install urllib bs4 requests lyricfetcher`
+3. put them somewhere in your $PATH, (or alternatively run `sudo make install`)
+
+## screenshots
 
 ### releases
 ![releases.png](res/releases.png)
@@ -31,9 +34,8 @@ Helpful scripts to get information from http://metal-archives.com
 ### location
 ![location.png](res/location.png)
 
+------
 
 Originally these were methods from http://github.com/mitchweaver/diskvlt-bot
 
 But as they are so handy, I now use them to categorize and tag my music.
-
-
