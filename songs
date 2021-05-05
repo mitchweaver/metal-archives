@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 #
-# http://github.com/mitchweaver/bin
+# http://github.com/mitchweaver/metal-archives
 #
 # get songs from a given 'band - album' from metal-archives.com
 #
@@ -97,4 +97,5 @@ def main():
     url = find_album_url(arg[0], arg[1])
     get_songs(url)
 
-if __name__ == "__main__": main()
+if __name__ == "__main__":
+    main()

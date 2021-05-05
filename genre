@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 #
-# http://github.com/mitchweaver/bin
+# http://github.com/mitchweaver/metal-archives
 #
 # get the genre of a given band from metal-archives
 #
@@ -54,4 +54,5 @@ def parse(url):
 def main():
     parse(url = 'https://www.metal-archives.com/bands/' + sys.argv[1])
 
-if __name__ == "__main__": main()
+if __name__ == "__main__":
+    main()

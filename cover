@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 #
-# http://github.com/mitchweaver/bin
+# http://github.com/mitchweaver/metal-archives
 #
 # get a given album cover from metal-archives.com
 #
@@ -60,4 +60,5 @@ def main():
     url = find_album_url(arg[0], arg[1])
     get_album_art(url)
 
-if __name__ == "__main__": main()
+if __name__ == "__main__":
+    main()

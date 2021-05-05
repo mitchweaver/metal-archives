@@ -1,8 +1,7 @@
-PREFIX   = /usr/local
+PREFIX = /usr/local
 
-.PHONY: all install uninstall
-
-all: install
+all:
+	@>&2 echo "Use 'make install'"
 
 install:
 	@echo 'Installing metal-archives scripts...'
@@ -25,4 +24,3 @@ uninstall:
 	rm -f $(DESTDIR)$(PREFIX)/bin/lyrics
 	rm -f $(DESTDIR)$(PREFIX)/bin/releases
 	rm -f $(DESTDIR)$(PREFIX)/bin/songs
-

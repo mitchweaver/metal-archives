@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 #
-# http://github.com/mitchweaver/bin
+# http://github.com/mitchweaver/metal-archives
 #
 # get a given band logo from metal-archives.com
 #
@@ -30,4 +30,5 @@ def band_logo(band):
 def main():
     band_logo(sys.argv[1])
 
-if __name__ == "__main__": main()
+if __name__ == "__main__":
+    main()

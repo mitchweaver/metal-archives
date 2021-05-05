@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 #
-# http://github.com/mitchweaver/bin
+# http://github.com/mitchweaver/metal-archives
 #
 # get releases of a band from metal-archives
 #
@@ -108,4 +108,5 @@ def get_releases(band):
 def main():
     get_releases(sys.argv[1])
 
-if __name__ == "__main__": main()
+if __name__ == "__main__":
+    main()

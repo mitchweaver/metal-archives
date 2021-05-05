@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 #
-# http://github.com/mitchweaver/bin
+# http://github.com/mitchweaver/metal-archives
 #
 # grab lyrics from lyricswikia
 #
@@ -22,4 +22,5 @@ def main():
     arg = sys.argv[1].split(' - ')
     lyrics(arg[0], arg[1])
 
-if __name__ == "__main__": main()
+if __name__ == "__main__":
+    main()
